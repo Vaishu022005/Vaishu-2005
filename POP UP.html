@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP UP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .card{
+        padding: 1cm;
+        background-color: antiquewhite;
+        margin-top: 2cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        border-radius: 22px;
+        box-shadow: 12px 13px 3px dark;
+    }
+    .card p{
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .add-card{
+        background-color: aliceblue;
+        padding: 1cm;
+        border-radius: 0.3cm;
+        box-shadow: 12px 12px 13px 3px dark;
+    }
+</style>
+<body class="container">
+    <button class="btn btn-success btn-block" data-toggle="modal" data-target="#mydesign">BUY</button>
+    <div class="modal fade" id="mydesign" role="dialog">
+        <div class="modal-design">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="card">
+                        <p> <i class="fa fa-id-card" aria-hidden="true"></i> Order ID : 657684685</p>
+                        <p> <i class="fa fa-calendar" aria-hidden="true"></i> Order Date : 01/03/2030</p>
+                        <p> <i class="fa fa-list-alt" aria-hidden="true"></i> Product Name : Mobile Phone</p>
+                        <div class="add-card">
+                            <h4> <span class="label-success label"><i class="fa fa-truck" aria-hidden="true"></i>Delivered</span></h4>
+                            <p>Order has been Delivered Successfully</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
